@@ -22,7 +22,7 @@ p {
 
 /* Starts the color indicating for each group of word */
 .Pronouns {
-  background: linear-gradient(to right, #000, #F00);
+  background: linear-gradient(to right, #000, #300);
   margin: 0;
   color: #F00;
 }
