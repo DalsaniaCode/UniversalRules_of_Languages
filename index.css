@@ -18,3 +18,9 @@ p {
 .first_h1 {
   margin: 20px 0px 20px;
 }
+
+/* Starts the color indicating for each group of word */
+.Pronouns {
+  margin: 0;
+  color: #F00;
+}
