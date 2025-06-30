@@ -19,38 +19,49 @@ a {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
 }
+table {
+  width: -webkit-fill-available;
+  margin: 0px 50px;
+}
+table, th, td {
+  border: 2px solid;
+  border-collapse: collapse;
+}
+th, td {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 4px;
+}
+div {
+  margin: 0;
+  padding: 10px 0px;
+}
 
 .first_h1 {
-  margin: 20px 0px 20px;
+  margin: 20px 0px;
 }
 
 /* Starts the color indicating for each group of word */
 /* I will make space for each class for understand this logic */
 .Pronouns {
   background: linear-gradient(to right, #000, #300);
-  margin: 0;
-  padding: 10px 0px;
   color: #F00;
 }
-.Pronouns table {
-  width: -webkit-fill-available;
-  margin: 0px 50px;
-}
 .Pronouns table, .Pronouns th, .Pronouns td {
-  border: 2px solid red;
-  border-collapse: collapse;
+  border: red;
 }
-.Pronouns th, .Pronouns td {
-  font-family: Arial, Helvetica, sans-serif;
-  padding: 4px;
+
+.Articles {
+  background: linear-gradient(to right, #330, #000);
+  color: #FF0;
+}
+.Articles table, .Articles th, .Articles td {
+  border: yellow;
 }
 
 /* External Sources */
 .ExtSrc {
   background: linear-gradient(to right, #ffed7d, #f16b8e, #a764bc);
   color: black;
-  padding: 10px 0px;
-  margin: 0;
   text-align: center;
 }
 .ExtSrc p {
