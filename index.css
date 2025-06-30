@@ -24,7 +24,6 @@ table {
   margin: 0px 50px;
 }
 table, th, td {
-  border: 2px solid;
   border-collapse: collapse;
 }
 th, td {
@@ -47,7 +46,7 @@ div {
   color: #F00;
 }
 .Pronouns table, .Pronouns th, .Pronouns td {
-  border: red;
+  border: 2px solid red;
 }
 
 .Articles {
@@ -55,7 +54,7 @@ div {
   color: #FF0;
 }
 .Articles table, .Articles th, .Articles td {
-  border: yellow;
+  border: 2px solid yellow;
 }
 
 /* External Sources */
