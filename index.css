@@ -57,6 +57,14 @@ div {
   border: 2px solid yellow;
 }
 
+.Verbs {
+  background: linear-gradient(to right, #000, #030);
+  color: #0F0;
+}
+.Verbs table, .Verbs th, .Verbs td {
+  border: 2px solid green;
+}
+
 /* External Sources */
 .ExtSrc {
   background: linear-gradient(to right, #ffed7d, #f16b8e, #a764bc);
